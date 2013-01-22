@@ -12,3 +12,20 @@ Working:
 
 
 
+Library Used:
+ Colorbox for Full Screen Slide show.
+ 
+Platforms:
+Facebook PHP SDK
+PHP
+
+Scripting Languages:
+Jquery
+Ajax
+
+Styling:
+Css
+
+
+
+
