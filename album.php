@@ -26,7 +26,7 @@ $facebook = new Facebook(array(
 	<?php if(!empty($photos)) { ?>
 	<?php
 	//Outputs Photo Links if User has requested Slide show
-	if($_POST['function']=='slideshow'){
+	if($_POST['type']=='slideshow'){
 		$count = 0;
 		foreach($photos as $photo) {
 			$lastChild = "";
@@ -36,7 +36,7 @@ $facebook = new Facebook(array(
 	}
 	
 	//Creates a zip file of photos if user asks to download the album
-	if($_POST['function']=='download'){
+	if($_POST['type']=='download'){
 		$_SESSION['files']=array();
 		$zip = new ZipArchive();
 		$zipname="albums.zip";
