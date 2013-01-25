@@ -1,7 +1,6 @@
-Facebook Album Browser and Downloader
-=====================================
-Working:
-=======
+# Facebook Album Browser and Downloader
+
+# Working:
 
  * User Login using Facebook Account.
  * Application fetches all Public Albums for the user account.
