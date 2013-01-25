@@ -58,7 +58,7 @@ $facebook = new Facebook(array(
 		}
 		$zip->close();
 		foreach($_SESSION['files'] as $filename){
-			unlink($filename);
+			unlink($filename);  //Deletes all photos to maintain consistency and privacy
 		}
 	}
 	?>
