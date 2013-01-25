@@ -70,11 +70,11 @@ $user = $facebook->getUser();
                                         echo	"<td class='albumcontainer'>" .
                                                 "<a href='#' class='album' id='".$album['id']."'  title='".$album['name']."'>" .
                                                 "<div class=\"thumb\" style=\"background: url({$album['thumb']}) no-repeat 50% 50%\"></div>" .
-                                                "<p>{$album['name']}</p>" .
+                                                "<div class='info'><p class='albumname'>{$album['name']}</p>" .
                                                 "<p>{$album['count']}</p>" .
                                                 "</a><!-- Onclick activates the Jquery function in fb.js -->
                                                 <a href='#' id='".$album['id']."' class='download'>Download this album</a> <!--Call to jquery function in fb.js -->
-                                                <div id='image".$album['id']."' class='wait'><img src='lib/img/downloading1.gif' title='Downloading Album..' alt='Downloading Album.....'/></div></td>";
+                                                <div id='image".$album['id']."' class='wait'><img src='lib/img/downloading1.gif' title='Downloading Album..' alt='Downloading Album.....'/></div></td></div>";
                                         $count++;
                                     }
                                 ?>

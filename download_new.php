@@ -9,9 +9,9 @@
     header('Pragma: public');
     header('Content-Length: ' . filesize('albums.zip'));
     readfile('albums.zip');
-    ob_clean();
+	ob_clean();
     flush();
-    unlink('albums.zip');
-    exit;
+	unlink('albums.zip');
+	exit;
 
 ?>
