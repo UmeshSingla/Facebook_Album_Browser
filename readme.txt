@@ -1,14 +1,14 @@
-Facebook Album Browser and Downloader
+<h1>Facebook Album Browser and Downloader</h1>
 
 Working:
 
-•	User Login using Facebook Account.
-•	Application fetches all Public Albums for the user account.
-•	Albums are displayed with a Thumbnail, Album Name and No. of Photos.
-•	A download link is displayed for each album.
-•	When a user clicks on Album, all photos for the album are displayed in full screen slideshow.
-•	When user clicks on download link, jquery(Ajax) processes PHP script to collect all photos for the album id, Zip them and prompts user for download.
-•	Meanwhile files are processed into zip, a loading bar is displayed, and users can browse into other albums.
+ï¿½	User Login using Facebook Account.
+ï¿½	Application fetches all Public Albums for the user account.
+ï¿½	Albums are displayed with a Thumbnail, Album Name and No. of Photos.
+ï¿½	A download link is displayed for each album.
+ï¿½	When a user clicks on Album, all photos for the album are displayed in full screen slideshow.
+ï¿½	When user clicks on download link, jquery(Ajax) processes PHP script to collect all photos for the album id, Zip them and prompts user for download.
+ï¿½	Meanwhile files are processed into zip, a loading bar is displayed, and users can browse into other albums.
 
 
 
