@@ -1,5 +1,7 @@
 <?php
-   require 'facebook.php';
+   require 'lib/facebook.php';
+   
+   //Facebook Object
 	$facebook = new Facebook(array(
 	  'appId'  => '194305640709555',
 	  'secret' => '2c81563357ce6f3022af6833e2e69fb5',

@@ -59,7 +59,6 @@ body {
 #header .links {float: right; line-height: 22px;}
 #header .login {padding-left: 20px;}
 #content {clear: left;	padding: 20px;}
-#footer p {margin: 10px 0 0; text-align: center;}
 
 #albums {
 	border: 0 none;
@@ -82,34 +81,6 @@ body {
     width: 156px;
 }
 
-#album {
-	border: 0 none;
-    border-collapse: collapse;
-    border-spacing: 0;
-	width: 100%;
-}
-#album td {
-    padding-bottom: 10px;
-    width: 161px;
-	vertical-align: top;
-}
-#album td a {
-	text-decoration: none;
-}
-#album td .thumb {
-	height: 120px;
-    width: 161px;
-	background-repeat: no-repeat;
-	background-position: center 25%;
-	margin: 0 auto;
-}
-.paging {
-	border: 1px solid;
-    padding: 5px 20px;
-	overflow: hidden;
-}
-.next {float: right;}
-.prev {float: left;}
 .rslides {
   position: relative;
   list-style: none;
