@@ -10,7 +10,6 @@ $facebook = new Facebook(array(
 
 if( !isset($_POST['id']) )
 	die("No direct access allowed!");
-		$root = realpath($_SERVER["DOCUMENT_ROOT"]);
 		$params = array();
 		if( isset($_GET['offset']) )
 			$params['offset'] = $_GET['offset'];
@@ -61,4 +60,7 @@ if( !isset($_POST['id']) )
 		fclose($fp);
 	}
 	$zip->close();
+	foreach($_SESSION['files'] as $filename){
+		unlink($filename);
+	}
 } ?>
