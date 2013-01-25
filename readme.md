@@ -26,6 +26,10 @@
 # Styling:
   * Css
 
+# Other Resources
+   * http://www.stackoverflow.com
+   * http://www.masteringapi.com
+
 
 
 
